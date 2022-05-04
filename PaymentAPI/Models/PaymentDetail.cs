@@ -16,7 +16,7 @@ namespace PaymentAPI.Models
 
         // mm/yy
         [Column(TypeName = "nvarchar(5)")]
-        public string ExprationDate { get; set; }
+        public string ExpirationDate { get; set; }
 
         [Column(TypeName = "nvarchar(3)")]
         public string SecurityCode { get; set; }
